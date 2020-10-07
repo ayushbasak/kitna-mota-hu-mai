@@ -1,6 +1,6 @@
 const expr  = require('express');
 const bp    = require('body-parser');
-
+const PORT  = process.env.PORT || 5000;
 let app = expr();
 
 
@@ -28,6 +28,6 @@ app.post("/bmicalc",function(req,res){
     
 });
 
-app.listen(8000, function(){
+app.listen(PORT, function(){
     console.log("Server is listening at port 8000");
 });
