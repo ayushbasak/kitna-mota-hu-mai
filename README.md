@@ -15,7 +15,7 @@ Run server
 Server will be available at `localhost:5000`
 
 ### Deployed on Heroku
-[Site]()
+[Site](https://kitnamotahumai.herokuapp.com/)
 
 #### ScreenShots :
 
