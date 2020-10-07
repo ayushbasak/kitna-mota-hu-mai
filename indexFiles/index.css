@@ -1,0 +1,24 @@
+html,body{
+    font-family: Product Sans Regular;
+    background-color: #116979;
+}
+div{
+    padding-top: 20%;
+    text-align: center;
+}
+a{
+    box-shadow: 0px 0px 50px black;
+    border-top: solid #de7119 5px;
+    font-size: 5vw;
+    padding: 50px;
+    text-decoration: none;
+    color: #de7119;
+    background: #dee3e2;
+    transition: all .2s;
+}
+a:hover{
+    box-shadow: 0px 0px 100px black;
+    border-color:#dee3e2 ;
+    color:#dee3e2;
+    background: #de7119;
+}

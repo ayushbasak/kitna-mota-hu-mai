@@ -1,0 +1,44 @@
+html,body{
+    margin: 0;
+    background-color:#f6d186;
+    font-family: Product Sans Regular;
+}
+div{
+    text-align: center;
+    padding:10% 0px 10% 0px;
+}
+.input{
+    width:50vw;
+    text-align: center ;
+    border: none;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 30px;
+    font-size: 20px;
+    color:#75daad;
+    background: #edffea;
+}
+.input:hover{
+    color:#edffea;
+    background:#75daad;
+}
+#btn{
+    margin: 20px;
+    font-size: 30px;
+    border: none;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 30px;
+    color:#ffaaa5;
+    background:#fcf8f3;
+    transition: all .2s;
+
+}
+#btn:hover{
+    color:#fcf8f3;
+    background:#ffaaa5;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
